@@ -1,0 +1,39 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+  color: white;
+
+  background: url('../images/Dojo.jpg');
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  border-radius: 40px;
+  text-align: center;
+
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	
+}
+h2 {
+	font-size: 25px;
+	
+}
+/*this a, is changing the way our links look and we changed color to green and there 
+were lines under all our links which we dont want so text-decoration set to none
+handled that for us */
+a {
+	color: #BFE35B;
+	text-decoration: none;
+}
